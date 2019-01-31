@@ -17,6 +17,7 @@
 		E028430B220308D900FC617A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0284309220308D900FC617A /* LaunchScreen.storyboard */; };
 		E0284316220308DA00FC617A /* playgroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0284315220308DA00FC617A /* playgroundTests.swift */; };
 		E0284321220308DA00FC617A /* playgroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0284320220308DA00FC617A /* playgroundUITests.swift */; };
+		E028432F22034F5E00FC617A /* idle.png in Resources */ = {isa = PBXBuildFile; fileRef = E028432E22034F5E00FC617A /* idle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		E028431C220308DA00FC617A /* playgroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = playgroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0284320220308DA00FC617A /* playgroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playgroundUITests.swift; sourceTree = "<group>"; };
 		E0284322220308DA00FC617A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E028432E22034F5E00FC617A /* idle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = idle.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		E02842F9220308D800FC617A /* playground */ = {
 			isa = PBXGroup;
 			children = (
+				E028432E22034F5E00FC617A /* idle.png */,
 				E02842FA220308D800FC617A /* AppDelegate.swift */,
 				E02842FC220308D800FC617A /* GameScene.sks */,
 				E02842FE220308D800FC617A /* Actions.sks */,
@@ -243,6 +246,7 @@
 				E0284308220308D900FC617A /* Assets.xcassets in Resources */,
 				E028430B220308D900FC617A /* LaunchScreen.storyboard in Resources */,
 				E02842FF220308D800FC617A /* Actions.sks in Resources */,
+				E028432F22034F5E00FC617A /* idle.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
